@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:  #3D4E81; 
+  padding: 30px; 
+  height: auto;
+}
+
+/* ----- HEADER START ----- */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (max-width: 575.98px) {
+  h1{
+    font-size: 20px;
+  }
+ }
+
+ 
+ .number{
+   margin-top: 50px;
+   background-color: rgb(190, 190, 190);
+   padding: 50px;
+   font-size: 50px;
+  }
+  
+  @media (max-width: 575.98px) {
+    .number{
+      padding: 30px;
+      font-size: 30px;
+    }
+  }
+  
+/* ----- HEADER END ----- */
+
+/* ----- ROW1 START ----- */
+
+.row1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+@media (max-width:575.98px) {
+  .row1{
+    flex-direction: column;
+  }
+}
+
+.guess{
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 200px;
+  outline:none
+}
+
+@media (max-width:575.98px) {
+  .guess{
+padding: 10px; 
+font-size: 20px;
+width: 150px; }
+}
+
+/* ----- ROW1 END ----- */
+
+/* ----- ROW2 START ----- */
+
+.row2{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+@media (max-width:575.98px) {
+  .row2{
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+  .message{
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+@media (max-width:575.98px) {
+  .label{
+margin-top: 20px;  }
+}
+
+.check,.again {
+  padding: 15px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.check:hover{
+  background-color: rgba(255, 255, 255, 0.603);
+ 
+}
+
+/* ----- ROW2 END ----- */
+
+/* ----- ROW3 START ----- */
+
+.row3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+@media (max-width:575.98px) {
+  .row3{
+    flex-direction: column;
+    margin-left: 0  ;
+  }
+}
+
+.between{
+  font-size: 20px;
+  font-style: italic;
+}
+
+@media (max-width:575.98px) {
+  .between{
+    font-size: 15px;
+    margin-top: 20px;
+  }
+}
+
+/* ----- ROW3 END ----- */
